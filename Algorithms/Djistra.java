@@ -29,8 +29,8 @@ public class Djistra {
     for (int i = 0; i < distance.length; i++) {
       System.out.println(String.format("Distance from %s to %s is %s", source, i, distance[i]));
     }
-
   }
+  
 
   // Finding the minimum distance
   private static int findMinDistance(int[] distance, boolean[] visitedVertex) {
